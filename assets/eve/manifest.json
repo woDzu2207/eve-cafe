@@ -1,0 +1,8 @@
+{
+  "_doc": "Eve's pictures for Eve's Café. Paths are relative to assets/. 'card' = the barista picture shown behind the counter (3:4), 'moods' = square avatars (speech bubble, popups). Missing mood -> 'neutral'. Prepare new photos with tools/import-eve.py. Café-safe pictures only (face / casual / café outfits).",
+  "card": "eve/barista.webp",
+  "moods": {
+    "neutral": "eve/barista_face.webp",
+    "closeup": "eve/neutral.webp"
+  }
+}
