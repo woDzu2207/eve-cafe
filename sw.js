@@ -1,6 +1,6 @@
 // Offline cache for Eve's Café. Pages + JSON: network-first (new builds show up). Other static assets: cache-first.
 // CACHE gets a unique suffix per build (vite.config.ts stamps the build id) so old caches are dropped.
-const CACHE = 'eve-cafe-mvzhglfa';
+const CACHE = 'eve-cafe-mw1pmwbg';
 const CORE = ['./', './index.html', './manifest.webmanifest', './assets/eve/manifest.json', './assets/eve/barista.webp', './assets/eve/barista_face.webp', './icons/icon-192.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {
